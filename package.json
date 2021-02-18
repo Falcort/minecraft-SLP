@@ -1,6 +1,6 @@
 {
   "name": "minecraft-slp",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A NodeJS packet to get the Minecraft server list ping data",
   "main": "dist/index.js",
   "scripts": {
@@ -14,6 +14,9 @@
   },
   "keywords": [
     "minecraft"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "SOUQUET Thibault",
   "license": "LGPL-3.0-or-later",
