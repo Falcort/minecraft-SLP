@@ -1,6 +1,6 @@
 {
   "name": "minecraft-slp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A NodeJS packet to get the Minecraft server list ping data",
   "main": "dist/index.js",
   "scripts": {
