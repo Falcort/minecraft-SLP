@@ -38,7 +38,7 @@ function mcSLP(address: string, port = 25565): Promise<object> {
 
     // Socket ending after timeout
     socket.on('end', () => {
-      resolve(JSON.parse(responseString.substring(5, responseString.length)));
+      resolve(JSON.parse(responseString.substring(responseString.indexOf('{"'), responseString.length)));
     });
   });
 }
